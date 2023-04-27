@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Software Engineering Info.</title>
+    <meta name="description" content="Software Engineering Info">
+    <meta name="keywords" content="Quick Facts, Knowledge-Skills, Training-Education">
+    <meta name="author" content="Cody Jennings">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="JenningsCodyStylesheet.css">
+</head>
+
+<body>
+
+    <ul class="navbar">
+        <li><a href="JenningsCodyHomePage.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="table.html">Table</a></li>
+        <li><a href="form.html">Form</a></li>
+    </ul>
+    <div class="video-audio-container">
+        <div class="video-container">
+            <video width="600" height="525" controls>
+                <source src="Website_Intro.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+            </video>
+        </div>
+        <div class="audiointro">
+            <p>Audio Intro</p>
+        </div>
+        <div class="audio-container">
+            <audio controls>
+                <source src="Audio_Intro.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+    <button type="button" onClick="document.getElementById('time-button').innerHTML = Date ()">Click here to display
+        current Date and Time.</button>
+    <p id="time-button"></p>
+    <h1 onmouseover="style.color='yellow'" onmouseout="style.color='rgb(198, 2, 2)'">Software Engineering</h1>
+    <br>
+    <p><span class=" boldtext italictext">My name is Cody Jennings and my desired occupation is a Software Engineer.</span></p>
+    <br>
+    <hr>
+    <br>
+
+    <h2>Software Engineer job description</h2>
+    <p></p> 
+        <br>
+
+        <br><a href="https://www.forbes.com/advisor/business/software-engineer-job-description/" target="_blank"><img src="Software_Engineer_Photo_1.jpg"
+                alt="Code example of a Software Engineer project" width="600" height="700"></a><br>
+    <hr>
+    <br>
+
+    <h2>Knowledge/Skills</h2>
+    <p></p>
+    <br>
+
+    <img src="Software_Developer_Photo_2.jpg" alt="Doom Slayer" width="600" height="700"><br>
+    <br>
+    <hr>
+    <br>
+
+    <h2>Training/Education</h2>
+    <p></p>
+    <br>
+
+    <img src="Software_Developer_Photo_3.jpg" alt="Jin Sakai from Ghost of Tsushima" width="600" height="700"><br>
+    <br>
+    <hr>
+    <br>
+
+    <h2>Salary/Benefits</h2>
+    <p></p>
+    <br>
+    <hr>
+    <br>
+    <div onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"
+        style="background-color: blue;width:65rem;height:9.5rem;padding:40px;margin: 0 auto;font-size: xx-large; color:antiquewhite">
+        Mouse Over Me
+    </div>
+    <script>
+        function mouseOver(obj) {
+            obj.innerHTML = "I have many more characters that I could discuss, but that would make for very long pages. These are only videogame protagonists, don't even get me started on Anime! P.S. if you are a fan of the first God of War for PS2 destroy the Aries and giant Minotaur statues at the end of the game to reveal an easter egg!"
+        }
+
+        function mouseOut(obj) {
+            obj.innerHTML = "Mouse Over Me"
+        }
+    </script>
+    <h1 class="disclaimer">Disclamer:</h1>
+    <p>I am not affiliated with nor own any rights regarding this page's images/url source or wiki url source. No
+        profits were generated from this project. All materials utilized were for educational and demonstration purposes
+        only.</p>
+</body>
+
+</html>
