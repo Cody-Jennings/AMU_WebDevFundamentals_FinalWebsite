@@ -73,10 +73,6 @@ li {
   .navbar a:hover:not(.active) {
     background-color: #aa3f3f;
   }
-  
-em {
-    color: rgb(163, 199, 17);
-}
 
 caption {
     font-size: 50px;

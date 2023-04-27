@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Cody's about page</title>
     <meta name="description" content="Cody's about page">
-    <meta name="keywords" content="hobbies, activities, interests">
+    <meta name="keywords" content="Hobbies, Activities, Interests, References">
     <meta name="author" content="Cody Jennings">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="JenningsCodyStylesheet.css">
@@ -55,6 +55,19 @@
             has
             also voted every chance available, even while deployed and working in other states.</p>
     </div>
+    <div onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"
+            style="background-color: #aa3f3f;width:65rem;height:20.5rem;padding:40px;margin: 40px auto;font-size: x-large; color:antiquewhite">
+            Mouse Over Me
+        </div>
+        <script>
+            function mouseOver(obj) {
+                obj.innerHTML = " References:<br> <br> <em>Anatomy Of a Software Developer Infographic</em>. (2018, June 5). ELEARNINGinfographics.com. Retrieved April 26, 2023, from https://elearninginfographics.com/software-developer-infographic-anatomy/<br> <br> Doyle, A. (2021, October 24). <em>What Does a Software Developer Do?</em> Liveaboutdotcom. https://www.liveabout.com/software-developer-job-description-salary-and-skills-2061833<br> <br> Main, K., Shweta (2022, March 30). <em>Software Engineer Job Description [With Examples]</em>. Forbes Advisor. https://www.forbes.com/advisor/business/software-engineer-job-description/ <br> <br> Rehan, R. N. (2021, January 13). <em>Code background</em>. Unsplash. https://unsplash.com/photos/cYyqhdbJ9TI"
+            }
+
+            function mouseOut(obj) {
+                obj.innerHTML = "Mouse Over Me"
+            }
+        </script>
 </body>
 
 </html>
